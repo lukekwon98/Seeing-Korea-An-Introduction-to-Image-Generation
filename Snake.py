@@ -126,7 +126,7 @@ while True:
     if head.distance(food) < 20: #measures distance between two turtles, basic turtle pixel = 20
         # Move the food to a random spot
         #winsound.PlaySound("power.wav", winsound.SND_ASYNC)
-        #playsound("power.wav")
+        playsound("power.wav")
         x = random.randint(-270, 270)
         y = random.randint(-270, 270)
         food.goto(x,y)
